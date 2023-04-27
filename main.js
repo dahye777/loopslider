@@ -73,6 +73,7 @@ function prevSlide() {
     callback: () => {
       ul.style.left = "-100%"; //0%에서 초기 위치 값으로 복귀하는 코드
       ul.prepend(ul.lastElementChild); //마지막 li를 맨앞으로 보내는 코드
+      enableClick = true;
     },
   });
 }
