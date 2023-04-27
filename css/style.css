@@ -27,7 +27,6 @@ a {
   left: 0;
   width: 300%;
   height: 100%;
-  transition: 1s;
 }
 #slider ul li {
   width: 33.3333333333%;
